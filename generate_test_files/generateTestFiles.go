@@ -12,8 +12,6 @@ import (
 
 const cfgPath = "modelHouseKeeping.ini"
 
-// const cfgPath = "/home/miot/modelHouseKeeping.ini"
-
 func main() {
 	// Load configuration from the specified INI file path
 	inidata, err := ini.Load(cfgPath)

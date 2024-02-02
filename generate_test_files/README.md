@@ -47,3 +47,13 @@ numFiles = 10
 * Generates test files with random GID (gid), category (type), and date (format: ).
 * Writes the generated content to each file.
 * Prints a message for each generated file.
+
+`getRandomCategory`
+* Returns a random category (type) from a predefined list.
+
+`getRandomDate`
+* Generates a random date within a specified range and returns it in a formatted string.
+
+### Customization
+* Modify the `getRandomCategory` function to include additional categories if needed.
+* Adjust the date range in the `getRandomDate` function based on specific testing requirements.
